@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select the arduino bluetooth device"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_weight="0.25"
+        android:textSize="21dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="309dp"
+        android:layout_weight="0.58"
+        android:textAlignment="center">
+    </ListView>
+
+    <Button
+        android:id="@+id/paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Paired Devices"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="#4AB1B7"
+        android:padding="5dp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="#4AB1B7"
+        android:layout_margin="10dp" />
+
+
+</LinearLayout>

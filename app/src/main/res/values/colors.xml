@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <color name="colorPrimary">#16979B</color>
+
+    <color name="colorPrimaryDark">#118183</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- switch colors-->
+
+    <color name="toggle_text">#FFF</color>
+
+
+    <color name="switch_on">#46BDBF</color>
+
+    <color name="switch_off">#FF4081</color>
+
+</resources>

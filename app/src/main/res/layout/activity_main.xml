@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jishnu_jayakumar.embeddedsystems.sem7.iiitv.sharc.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Door"
+            android:id="@+id/door_switch"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_weight="0.08"
+            android:theme="@style/SCBSwitch"
+            android:textAlignment="center" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fan"
+            android:id="@+id/fan_switch"
+            android:textSize="30dp"
+            android:layout_weight="0.09"
+            android:textAlignment="center" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lights"
+            android:id="@+id/light_switch"
+            android:textSize="30dp"
+            android:layout_weight="0.08"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blinds"
+            android:id="@+id/blind_switch"
+            android:textSize="30dp"
+            android:layout_weight="0.08"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Automate"
+            android:id="@+id/automate_switch"
+            android:textSize="30dp"
+            android:layout_weight="0.08"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ForGapView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.30" />
+
+        <Button
+            android:id="@+id/automate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Automate"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:background="#4AB1B7"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:text="Exit"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:background="#4AB1B7"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.14" />
+
+    </LinearLayout>
+
+</RelativeLayout>
