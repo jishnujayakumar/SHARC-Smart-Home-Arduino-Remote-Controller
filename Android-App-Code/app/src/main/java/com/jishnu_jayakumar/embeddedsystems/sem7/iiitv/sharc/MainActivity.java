@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int code;
     final Context context = this;
     private String password = "";
-    private String Original_password = "Jishnu123";
+    private String Original_password = "@string/password";
     UUID applicationUUID = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
     private BluetoothSocket mBluetoothSocket;
     private BluetoothDevice bluetoothDevice;
