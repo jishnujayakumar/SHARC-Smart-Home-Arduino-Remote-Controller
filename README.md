@@ -35,14 +35,14 @@ The purpose of this project to complete the assignment(final project) as the par
 
 ## Contributors:
 
-[Abhijeet Singh Panwar](https://www.linkedin.com/in/abhijeet-singh-panwar-a382a8a5)
-
 [Dilip Puri](https://github.com/dilippuri)
 
 [Hemant Kumar](https://github.com/hemantkrmmt)
 
-[P Jishnu Jay Kumar](https://github.com/RJJishnu353)
+[P Jishnu Jaykumar](https://github.com/RJJishnu353)
 
 [Vivek Kumar Singh](https://github.com/VivekProHacker)
+
+[Abhijeet Singh Panwar](https://www.linkedin.com/in/abhijeet-singh-panwar-a382a8a5)
 
 
