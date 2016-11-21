@@ -22,7 +22,7 @@ The purpose of this project to complete the assignment(final project) as the par
 ## Usages	
 
 ### Download app
-[Click this link](https://github.com/)
+[Click this link](https://github.com/dilippuri/SHARC-Smart-Home-Arduino-Remote-Controller/blob/master/embeddedsystems.sem7.iiitv.sharc.apk)
 
 ### Open the app
 ![Welcome Page](diagrams/welcome_page.png?raw=true "Welcome Page")
