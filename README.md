@@ -9,7 +9,7 @@ In this project we have made an android app to control the home(fan, light, blin
 The purpose of this project to complete the assignment(final project) as the part of our Semester course Embedded System.
 
 ## Block Diagram(An abstract view)
-[Block Diagram!](diagrams/block_diagram.png?raw=true "Block Diagram")
+![Block Diagram](diagrams/block_diagram.png?raw=true "Block Diagram")
 
 ## Feature
 
@@ -24,7 +24,7 @@ The purpose of this project to complete the assignment(final project) as the par
 ### Download app
 
 ### Open the app
-![Welcome Page](diagrams/welcome_page.png?raw=true "Welcome Page")
+![Welcome Page](diagrams/welcome_page.png =100x20)
 ### Connect to the bluetooth
 ![Connection Page](diagrams/connection_page.png?raw=true "Connectin Page")
 ### Open Main door(give password)[default password: Jishnu123]
