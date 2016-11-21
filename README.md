@@ -1,15 +1,17 @@
 # Smart-Home-Arduino-Remote-Controller(SHARC)
 
 ## Introduction
-	In this project we have made an android app to control the home(fan, light, blinds, water_level, etc.). Android app will communicate
- with Arduino to handle all these appliances. Android app have two modes MANUAL and AUTOMATIVE in manual mode person will give instruction to
- the perticular appliance and on the other hand in automative mode all the things will handleded automative based on sensors.
+	In this project we have made an android app to control the home(fan, light, blinds, water_level, etc.).
+Android app will communicate with Arduino to handle all these appliances. Android app have two modes MANUAL and AUTOMATIVE in manual mode
+person will give instruction to the perticular appliance and on the other hand in automative mode all the things will handleded automative
+based on sensors.
 
 ## Purpose
-	The purpose of this project to complete the assignment(final project) as the part of our Semester course Embedded System.
+	The purpose of this project to complete the assignment(final project)
+as the part of our Semester course Embedded System.
 
 ## Block Diagram(An abstract view)
-	![Block Diagram](diagrams/block_diagram.png?raw=true "Block Diagram")
+	![Block Diagram](../diagrams/block_diagram.png?raw=true "Block Diagram")
 
 ## Feature
 	* Password based main door
