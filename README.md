@@ -24,7 +24,7 @@ The purpose of this project to complete the assignment(final project) as the par
 ### Download app
 
 ### Open the app
-![Welcome Page](diagrams/welcome_page.png =100x20)
+![Welcome Page](diagrams/welcome_page.png?raw=true "Welcome Page")
 ### Connect to the bluetooth
 ![Connection Page](diagrams/connection_page.png?raw=true "Connectin Page")
 ### Open Main door(give password)[default password: Jishnu123]
