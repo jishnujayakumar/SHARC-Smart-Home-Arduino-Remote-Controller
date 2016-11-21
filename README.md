@@ -22,6 +22,7 @@ The purpose of this project to complete the assignment(final project) as the par
 ## Usages	
 
 ### Download app
+[Click this link](https://github.com/)
 
 ### Open the app
 ![Welcome Page](diagrams/welcome_page.png?raw=true "Welcome Page")
