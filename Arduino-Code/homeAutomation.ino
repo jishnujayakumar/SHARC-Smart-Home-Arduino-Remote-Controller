@@ -52,7 +52,7 @@ void setup() {
 	Serial.begin(9600);
 }
 
-
+//function to control fan
 void fan(int x){
 	int stop = 0;
 	if(x == 1){
@@ -80,7 +80,7 @@ void window(int y){
 		delay(500);
 	}
 }
-
+//function to control curtains
 void curtain(int x){
 
 	if (x == 1){
@@ -93,7 +93,7 @@ void curtain(int x){
 		digitalWrite(11, LOW); 
 	}
 }
-
+//temperature sensor once started, gives reading everytime.
 void temperature(){
 	int val = analogRead(A1);
 	float cel = ( val/1024.0)*500; 
@@ -110,7 +110,7 @@ void temperature(){
 		digitalWrite(2,LOW);
 	}
 }
-
+//water level tracking using ultrasonic sensor
 void water_level(){
 	digitalWrite(trigPin, LOW);
 	delayMicroseconds(10000);
@@ -129,7 +129,7 @@ void water_level(){
 		digitalWrite(2,LOW);
 	}
 }
-
+//lights sontrol
 void light(int x){
  
 	if(x==1){
@@ -138,9 +138,9 @@ void light(int x){
 		digitalWrite(12,LOW);
 	}
 }
-
+//function to open & close door
 int door(){
-	int flag=0;
+	int flag=0;//it is comparing sequence from IR output
 	if(ir1==HIGH && ir2==LOW){
 		if(a[0]=='0'){
 			a[0]='1';
@@ -188,13 +188,12 @@ int door(){
 	return flag;
 }
 
-
 void loop(){
-
+//reading output from android app.
 	if( Serial.available() ){
 		data = Serial.read();      
 	}
-
+//switchcase for manual mode
 	switch (data){
 		case '0' : digitalWrite(13, LOW);break;
 		case '1' : digitalWrite(13, HIGH);break;
@@ -255,7 +254,7 @@ void loop(){
 		}
     	}
 	else if(automate==9){
-
+//switchcase for automate mode
 		while( Serial.available() > 0 && Serial.read() != 8){       // if data is available to read
 
 		switch (data){
