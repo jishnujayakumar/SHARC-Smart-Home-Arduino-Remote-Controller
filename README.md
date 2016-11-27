@@ -2,11 +2,11 @@
 
 ## Introduction
 
-In this project, we have developed an android app to remotely control the home(fan, light, blinds, water_level, etc.). The android app will communicate with Arduino to handle all these appliances. Android app has two modes MANUAL and AUTOMATIC in manual mode person will give instruction to the particular appliance and on the other hand in automatic mode working of each appliance is controlled by sensors.
+In this project, we have developed an android app to remotely control the home appliances like door lock, fan, light & blinds and get notified about fire/smoke & water-level of tank. The android app communicates with Arduino board to handle all these appliances. Android app has two modes MANUAL and AUTOMATIC. In manual mode, person will give instruction to a particular appliance through android app using bluetooth technology and on the other hand in automatic mode, working of each appliance is controlled by sensors.
 
 ## Purpose
 
-The purpose of this project to automate the "HOME", in order to make the life of a person make comfortable & easy.
+The purpose of this project to automate the "HOME", in order to make the life of a person comfortable, easy & safe.
 
 ## Block Diagram(An abstract view)
 ![Block Diagram](diagrams/block_diagram.png?raw=true "Block Diagram")
@@ -17,7 +17,7 @@ The purpose of this project to automate the "HOME", in order to make the life of
 * Light control
 * Fan control
 * Window blinds control
-- Manual/Automative
+* Manual & Automatic modes of control
 
 ## Usages    
 
