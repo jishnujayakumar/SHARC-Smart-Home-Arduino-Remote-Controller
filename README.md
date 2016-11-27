@@ -39,7 +39,7 @@ The purpose of this project to automate the "HOME", in order to make the life of
 
 [Hemant Kumar](https://github.com/hemantkrmmt)
 
-[P Jishnu Jay Kumar](https://github.com/RJJishnu353)
+[P Jishnu Jaykumar](https://github.com/RJJishnu353)
 
 [Vivek Kumar Singh](https://github.com/VivekProHacker)
 
