@@ -22,7 +22,7 @@ The purpose of this project to automate the "HOME", in order to make the life of
 ## Usages    
 
 ### Download app
-[Click this link](https://github.com/dilippuri/SHARC-Smart-Home-Arduino-Remote-Controller/blob/master/embeddedsystems.sem7.iiitv.sharc.apk)
+[Click this link](https://github.com/dilippuri/SHARC-Smart-Home-Arduino-Remote-Controller/blob/master/Sharc.apk)
 
 ### Open the app
 ![Welcome Page](diagrams/welcome_page.png?raw=true "Welcome Page")
@@ -35,8 +35,6 @@ The purpose of this project to automate the "HOME", in order to make the life of
 
 ## Contributors:
 
-[Abhijeet Singh Panwar](https://www.linkedin.com/in/abhijeet-singh-panwar-a382a8a5)
-
 [Dilip Puri](https://github.com/dilippuri)
 
 [Hemant Kumar](https://github.com/hemantkrmmt)
@@ -44,3 +42,5 @@ The purpose of this project to automate the "HOME", in order to make the life of
 [P Jishnu Jay Kumar](https://github.com/RJJishnu353)
 
 [Vivek Kumar Singh](https://github.com/VivekProHacker)
+
+[Abhijeet Singh Panwar](https://github.com/abhijeet237)
