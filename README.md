@@ -22,7 +22,7 @@ The purpose of this project to automate the "HOME", in order to make the life of
 ## Usages    
 
 ### Download app
-[Click this link](https://github.com/dilippuri/SHARC-Smart-Home-Arduino-Remote-Controller/blob/master/Sharc.apk)
+[Click this link](https://github.com/RJJishnu353/SHARC-Smart-Home-Arduino-Remote-Controller/blob/master/Sharc.apk)
 
 ### Open the app
 ![Welcome Page](diagrams/welcome_page.png?raw=true "Welcome Page")
