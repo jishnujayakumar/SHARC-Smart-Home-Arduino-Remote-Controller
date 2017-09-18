@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, we have developed an android app to remotely control the home appliances like door lock, fan, light & blinds and get notified about fire/smoke & water-level of tank. The android app communicates with Arduino board to handle all these appliances. Android app has two modes MANUAL and AUTOMATIC. In manual mode, person will give instruction to a particular appliance through android app using bluetooth technology and on the other hand in automatic mode, working of each appliance is controlled by sensors.
+In this project, an Android app was developed to remotely control the home(fan, light, blinds, water_level, etc.). The Android app will communicate with Arduino to handle all these appliances. Android app has two modes MANUAL and AUTOMATIC. In the MANUAL mode, a person has to give instruction to the particular appliance and on the other hand, in the AUTOMATIC mode, working of each appliance is controlled by respective sensors. Apart from the Android app, a full hardware was also implemented using Arduino which communicated with the app for receiving instructions.
 
 ## Purpose
 
