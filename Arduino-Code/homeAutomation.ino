@@ -67,6 +67,7 @@ void fan(int x){
 	}
 }
 
+//control to blinds
 void window(int y){
 
 	if(y==1){
@@ -76,7 +77,7 @@ void window(int y){
 	}
 	if(y==0){
 		Serial.println("closing");
-		myStepper.step(-stepsPerRevolution);
+		myStepper.step(-stepsPerRevolution);// (-) for reverse rotation
 		delay(500);
 	}
 }
